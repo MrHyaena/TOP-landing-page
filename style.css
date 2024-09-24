@@ -14,7 +14,8 @@ body {
     justify-content: space-between;
     background-color: #1f2937;
     color: white;
-    padding: 20px 0px;
+    padding: 20px 300px;
+
 }
 
 .menu {
@@ -35,15 +36,19 @@ a {
     display: flex;
     background-color: #1f2937;
     color: white;
-    padding: 60px 0px;
+    padding: 60px 400px;
+    justify-content: space-between;
 }
 
 .hero-left {
     text-align: left;
+    padding-right: 80px;
 }
 
 .main-img {
     height: 300px;
+    display: flex;
+    flex-grow: 1;
 }
 
 .sign1 {
@@ -57,13 +62,17 @@ a {
 
 .cards {
     display: flex;
-    align-items: center;
     margin: 50px 0px;
+    justify-content: space-evenly;
+    padding: 0px 300px;
 }
 
 .card {
     height: 150px;
     width: 200px;
+    border-radius: 20px;
+    border: 4px;
+    border-color: #3882F6;
 }
 
 .karta {
@@ -72,9 +81,44 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    text-wrap: wrap;
 }
 
 h2 {
     text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 500px;
+    font-size: 25px;
+}
+
+.author {
+    text-align: end;
+    font-weight: 600;
+}
+
+.CTA {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 40px 60px;
+    border-radius: 20px;
+}
+
+.sign2 {
+    color: white;
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 40px;
 }
