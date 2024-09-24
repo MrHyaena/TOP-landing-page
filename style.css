@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.zahlavi {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px 0px;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    padding: 60px 0px;
+}
+
+.hero-left {
+    text-align: left;
+}
+
+.main-img {
+    height: 300px;
+}
+
+.sign1 {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 8px 20px;
+    color: white;
+    font-weight: 700;
+    border-width: 1px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.card {
+    height: 150px;
+    width: 200px;
+}
+
+.karta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+h2 {
+    text-align: center;
+}
